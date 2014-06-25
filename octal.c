@@ -5,7 +5,7 @@ int main(int argc, const char *argv[])
 {
 	int x;
 	int octal_val;
-
+	printf("hi\n");
 	printf("choose a number\n");
 	scanf("%d" &x);
 	printf("%d, %o\n", x, octal_val);
